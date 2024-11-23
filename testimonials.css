@@ -1,0 +1,25 @@
+aside{
+    /* set the section to be fixed */
+    position: fixed;
+    /* anchor the aside in the top, right corner */
+    right: 0;
+    top: 0;
+    /* make the aside full height */
+    height: 100%;
+    /* set the width to fill in the remaining 25% */
+    width: 25%;
+    /* add padding to the top to avoid overlapping the header */
+    padding-top: 100px;
+    /*add some padding so the text is not right up against the edge */
+    background-color: firebrick;
+    /* set the text color */
+    color: khaki;
+}
+#profile{
+   width: 45%;
+   height: 25%;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }  
